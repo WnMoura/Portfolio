@@ -1,0 +1,560 @@
+*{   
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:  #22212C ;
+    background-size:auto;
+
+
+}
+*{font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;}
+
+
+
+
+#Profile{
+border: 20px 20px 20px 20px;
+
+width: 348px;
+height: 292px;
+
+border-radius: 20px;
+background: #302F3D;
+margin: 40px 1000px 1052px 40px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+}
+
+#Profile img{
+
+    width: 128px;
+    height: 128px;
+
+    padding: 32px 110px 132px 110px; 
+
+}
+
+#Profile p{
+
+display: block;
+width: 196px;
+height: 26px;
+
+color: #837E9F;
+font-weight: 700;
+font-size: 15px;
+padding: 190px 76px 76px 76px;
+text-align: center;
+
+}
+
+#Profile p1{
+    display: flex;
+    width: 128px;
+    height: 17px;
+    padding: 226px 110px 49px 110px;
+
+    color: #837E9F;
+    font-size: 13px;
+    font-weight: 300px;
+
+}
+
+/*caixa Informação*/
+
+#Informations{
+
+    width: 348px;
+    height: 348px;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    margin:362px 1052px 1057px 40px;
+    
+}
+#Informations p{
+color: #837E9F;
+font-size: 13px;
+font-weight: 500;
+padding: 34px 229px 298px 84px;
+
+}
+#Informations p1{
+    color: #837E9F;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+#Informations p2{
+    color: #837E9F;
+    font-size: 13px;
+    font-weight: 500;
+    padding:122px 190px 210px 84px; ;
+
+
+}
+#Informations p3{
+     color: #837E9F;
+     font-size: 13px;
+     font-weight: 500;
+     padding: 168px 100px 166px 84px;
+
+}
+#Informations p4{
+     color: #837E9F;
+     font-size: 13px;
+     font-weight: 500;
+     padding: 210px 190px 0px 84px;
+}
+
+#Informations p5{
+    color: #837E9F;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 255px 127px 0px 84px;
+}   
+     
+
+#map{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 30px 284px 294px 40px;
+    color:#837E9F;
+}
+
+#folder{
+    width: 24px;
+    height: 24px;
+    color: #837E9F;
+    padding: 74px 284px 250px 40px;
+}
+
+#github{
+    width: 24px;
+    height: 24px;
+    color: #837E9F;
+    padding: 118px 284px 206px 40px;
+    }
+
+#linkedin{
+    width: 24px;
+    height: 24px;
+    color: #837E9F;
+    padding: 162px 284px 162px 40px
+}
+    
+#instagram{
+    color: #837E9F;
+    width: 24px;
+    height: 24px;
+    padding: 206px 284px 118px 40px;
+}
+#email{
+    width: 24px;
+    height: 24px;
+    color: #837E9F;
+    padding: 250px 284px 74px 40px
+}
+/*Tecnologias*/
+#Tecnologias{
+    
+width: 348px;
+height: 208px;
+
+border-radius: 20px;
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+position: absolute;
+margin: 740px 1052px 819px 40px;
+
+
+
+}
+h1{
+    display: flex;
+    width: 121px;
+    height: 26px;
+    flex-direction: column;
+    color: #837E9F;
+    font-size: 20px; 
+    font-weight: 700;
+    margin: 30px 207px 152px 20px;
+}
+ul{list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+
+    padding: 24px 0;
+}
+#Linha1{
+    width: 86px;
+    height: 24px;
+    display: flex;
+    
+    margin: 50px 232px 108px 30px;
+        
+   padding: 1px;
+        
+    background: #CB92B1;
+    
+    border-radius: 30px; 
+
+    position: absolute;
+    }
+#Linha1 p{
+    color: #000;
+    display: flex;
+    width: 86px;
+    height: 11px;
+
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 5px 7px 15px;
+    text-transform: uppercase;
+
+}
+
+#Linha2{
+    width: 86px;
+    height: 24px;
+    display: flex;
+    
+    margin: 50px 131px 108px 131px;
+        
+    padding: 1px;
+        
+    background: #CB92B1;
+    
+    border-radius: 30px; 
+
+    position: absolute;
+}
+#Linha2 p1{
+    color: #000;
+    display: flex;
+    width: 86px;
+    height: 11px;
+
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 5px 7px 25px;
+    text-transform: uppercase;
+
+}
+#Linha3{
+   
+    width: 86px;
+    height: 24px;
+    display: flex;
+    
+    margin: 50px 30px 108px 232px;
+        
+    padding: 1px;
+        
+    background: #CB92B1;
+    
+    border-radius: 30px; 
+
+    position: absolute;
+}
+#Linha3 p2{
+
+    color: #000;
+    display: flex;
+    width: 86px;
+    height: 11px;
+
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 5px 7px 31px;
+    text-transform: uppercase;
+
+
+
+}
+#Linha4{
+    width: 86px;
+    height: 24px;
+    display: flex;
+    
+    margin: 95px 232px 108px 30px;
+        
+    padding: 1px;
+        
+    background: #CB92B1;
+    
+    border-radius: 30px; 
+    position: absolute;
+
+
+}
+#Linha4 p3{
+    color: #000;
+    display: flex;
+    width: 86px;
+    height: 11px;
+
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 5px 7px 31px;
+    text-transform: uppercase;
+
+}
+#Linha5{
+
+    width: 86px;
+    height: 24px;
+    display: flex;
+    
+    margin: 95px 131px 108px 131px;
+        
+    padding: 1px;
+        
+    background: #CB92B1;
+    
+    border-radius: 30px;
+
+    position: absolute;
+}
+#Linha5 p4{
+
+    color: #000;
+    display: flex;
+    width: 86px;
+    height: 11px;
+
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 10px 7px 20px;
+    text-transform: uppercase;
+   
+
+
+}
+/* Experiências*/
+
+#Experiencias
+{
+width: 348px;
+height: 349px;
+
+border-radius: 20px;
+background: #302F3D;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+position: absolute;
+margin: 978px 1052px 440px 40px
+}
+
+#Experiencias h1{
+    margin: 30px 207px 152px 20px;
+    display: flex;
+    width: 141px;
+    height: 26px;
+
+    color: #837E9F;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* Educação */
+
+#Educação
+{
+    width: 348px;
+    height: 352px;
+    
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    position: absolute;
+    margin: 1357px 1052px 58px 40px
+}
+
+ li{
+    width: 175px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1443px 1185px 88px 80px;
+ }
+ p{color: #837E9F;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+padding: 0px 60px 0px 18px;
+
+}
+
+
+
+
+
+
+/* Meus Projetos */
+#MyProjects{
+ width: 952px;
+ height: 86px;
+ border-radius: 20px;
+ margin-top: 40px;
+ margin-left: 448px;
+ background:  #302F3D;
+ position: absolute;
+ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+}
+
+#MyProjects p{
+    display: flex;
+    width: 121px;
+    height: 26px;
+    text-align: center;
+   
+    
+
+    font-size: 20px;
+    color: #837E9F;
+    font-weight: 700;
+    padding: 30px 30px 801px 30px;
+}
+
+a{
+    margin: 74px 70px 1675px 1299px;
+    text-decoration: none;
+    text-align: left;
+    white-space:nowrap;
+    position: absolute;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#Card1{
+
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+
+    margin: 157px 531px 1424px 448px;
+}
+#Card1 h1{
+    display: flex;
+    width: 79px;
+    height: 17px;
+
+    color: #837E9F;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 31px 316px 138px 66px;
+    white-space:nowrap;
+}
+#Card1 p1{
+    display: flex;
+    width: 28px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin: 138px 375px 32px 58px;
+}
+#Card1 p4{
+    margin: 138px 30px 32px 362px;
+    
+    display: flex;
+    width: 69px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 400;
+
+
+
+}
+#Star{
+    width: 20px;
+    height: 20px;
+    margin: 136px 411px 30px 30px;
+    
+}
+#Ellipse{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    
+
+    stroke-width: 2px;
+    
+    margin: 138px 107px 30px 339px;
+}
+
+#Pasta{
+
+padding: 30px 411px 136px 30px;
+width: 20px;
+height: 20px;
+
+}
+#Card1 p{
+    display: flex;
+    width: 421px;
+    height: 19px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 70px 10px 97px 30px;
+    white-space:pre-wrap;
+}
+
+#post{
+    width: 952px;
+    height: 86px;
+    flex-shrink: 0;
+    margin: 373px 40px 1308px 448px;
+
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+
+
+}
+#post p{
+    display: flex;
+    width: 140px;
+    height: 26px;
+
+    color: #837E9F;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 782px 30px 30px;
+}
