@@ -7,8 +7,7 @@
 
 body{
     background-color:  #22212C ;
-    background-size:auto;
-
+   height: 100vh;
 
 }
 *{font-family: 'Inter', sans-serif;
@@ -403,7 +402,27 @@ padding: 0px 60px 0px 18px;
 
 }
 
+#li1{
+    width: 175px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
 
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1540px 1185px 88px 80px;
+ }
+ #li1p1{color: #837E9F;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+padding: 0px 60px 0px 18px;
+
+}
 
 
 
@@ -446,7 +465,7 @@ a{
     font-weight: 400;
 
 }
-
+/*Primeiro Card*/
 #Card1{
 
     position: absolute;
@@ -494,35 +513,97 @@ a{
     color: #837E9F;
     font-size: 14px;
     font-weight: 400;
-
-
-
-}
-#Star{
-    width: 20px;
-    height: 20px;
-    margin: 136px 411px 30px 30px;
-    
-}
-#Ellipse{
-    width: 15px;
-    height: 15px;
-    flex-shrink: 0;
-    
-
-    stroke-width: 2px;
-    
-    margin: 138px 107px 30px 339px;
-}
-
-#Pasta{
-
-padding: 30px 411px 136px 30px;
-width: 20px;
-height: 20px;
-
 }
 #Card1 p{
+        display: flex;
+        width: 421px;
+        height: 19px;
+        flex-direction: column;
+        flex-shrink: 0;
+    
+        color: #837E9F;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 70px 10px 97px 30px;
+        white-space:pre-wrap;
+    }
+    #Star{
+        width: 20px;
+        height: 20px;
+        margin: 136px 411px 30px 30px;
+        
+    }
+    #Ellipse{
+        width: 15px;
+        height: 15px;
+        flex-shrink: 0;
+        
+    
+        stroke-width: 2px;
+        
+        margin: 138px 107px 30px 339px;
+    }
+    
+    #Pasta{
+    
+    padding: 30px 411px 136px 30px;
+    width: 20px;
+    height: 20px;
+    
+    }
+/*Segundo Card*/
+#Card3{
+
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+
+    margin: 157px 40px 1424px 939px
+}
+#Card3 h1{
+    display: flex;
+    width: 79px;
+    height: 17px;
+
+    color: #837E9F;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 31px 316px 138px 66px;
+    white-space:nowrap;
+}
+#Card3 p1{
+    display: flex;
+    width: 28px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin: 138px 375px 32px 58px
+}
+#Card3 p4{
+    margin: 138px 30px 32px 362px;
+    
+    display: flex;
+    width: 69px;
+    height: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+    color: #837E9F;
+    font-size: 14px;
+    font-weight: 400;
+
+
+
+}
+#Card3 p{
     display: flex;
     width: 421px;
     height: 19px;
@@ -535,7 +616,31 @@ height: 20px;
     margin: 70px 10px 97px 30px;
     white-space:pre-wrap;
 }
+#Star1{
+    width: 20px;
+    height: 20px;
+    margin: 136px 411px 30px 30px;
+    
+}
+#Ellipse1{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    
 
+    stroke-width: 2px;
+    
+    margin: 138px 33px 107px 339px }
+
+#Pasta1{
+
+padding: 30px 411px 136px 30px;
+width: 20px;
+height: 20px;
+
+}
+
+/*Post*/
 #post{
     width: 952px;
     height: 86px;
@@ -558,3 +663,4 @@ height: 20px;
     font-weight: 700;
     margin: 30px 782px 30px 30px;
 }
+

@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-O Portfolio e uma pasta aonde pode ser armazenada todas suas informações e conteudos importantes como seus projetos, de uma forma mais organizada e estilizada.
+O Portfólio e uma pasta aonde pode ser armazenada todas as suas informações e conteúdos importantes, como os seus projetos, de uma forma mais organizada e estilizada.
 
 - [Acesse o projeto finalizado, online](https://wnmoura.github.io/Portfolio/)
 
