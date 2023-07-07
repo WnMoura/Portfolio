@@ -48,7 +48,7 @@ font-weight: 700;
 font-size: 15px;
 padding: 190px 76px 76px 76px;
 text-align: center;
-
+white-space:nowrap;
 }
 
 #Profile p1{
